@@ -154,14 +154,14 @@ FakeStore API → fetchProducts() → ShopContext → Components/Pages
 
 ```bash
 # 1. Clone repository
-git clone <url-repository>
-cd Submission_Jaka_Perdana
+git clone https://github.com/Anang-Programmer/Royal-Lynx.git
+cd Royal-Lynx
 
 # 2. Install dependencies
 pnpm install
 
 # 3. Jalankan development server
-pnpm dev
+pnpm run dev
 
 # 4. Buka di browser
 # http://localhost:5173
@@ -171,7 +171,7 @@ pnpm dev
 
 ```bash
 # Build project
-pnpm build
+pnpm run build
 
 # Preview hasil build
 pnpm preview
