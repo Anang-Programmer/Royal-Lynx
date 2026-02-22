@@ -49,12 +49,9 @@ Submission_Jaka_Perdana/
 │   ├── components/
 │   │   ├── features/                # Komponen fitur bisnis
 │   │   │   ├── ProductCard.jsx      # Kartu produk (gambar, harga, wishlist, add to cart)
-│   │   │   ├── ProductList.jsx      # (Placeholder) Wrapper untuk looping ProductCard
-│   │   │   └── TransactionItem.jsx  # (Placeholder) Item baris riwayat transaksi
 │   │   ├── layout/                  # Komponen tata letak
 │   │   │   ├── Footer.jsx           # Footer dengan info brand, menu, bantuan, kontak
 │   │   │   ├── Hero.jsx             # Banner hero + fitur layanan (ongkir, garansi, dll)
-│   │   │   ├── Layout.jsx           # (Placeholder) Wrapper layout utama
 │   │   │   └── Navbar.jsx           # Navigasi sticky dengan search bar (desktop + mobile), badge, profil
 │   │   └── ui/                      # Komponen UI reusable
 │   │       ├── Badge.jsx            # Badge angka notifikasi (cart & wishlist)
@@ -68,7 +65,6 @@ Submission_Jaka_Perdana/
 │   ├── context/
 │   │   └── ShopContext.jsx          # Global state management (produk, cart, wishlist, transaksi)
 │   ├── hooks/
-│   │   ├── useLocalStorage.js       # (Placeholder) Hook untuk localStorage
 │   │   └── useShop.js               # Custom hook untuk akses ShopContext
 │   ├── pages/
 │   │   ├── home.jsx                 # Halaman utama katalog produk
@@ -85,7 +81,6 @@ Submission_Jaka_Perdana/
 │   │   └── api.js                   # Fungsi fetch data produk dari FakeStore API
 │   ├── utils/
 │   │   ├── formatters.js            # Utility format mata uang (USD) & tanggal (id-ID)
-│   │   └── formatDate.js            # (Placeholder) Format tanggal
 │   ├── App.jsx                      # Root component dengan routing & search overlay logic
 │   ├── main.jsx                     # Entry point React (BrowserRouter + ShopProvider)
 │   └── index.css                    # Import Tailwind CSS + Dark Mode CSS overrides
