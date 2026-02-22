@@ -1,0 +1,75 @@
+Project Goal:
+Create a fully functional product catalog web application using React/Vite that manages products, wishlist, and transactions
+By completing this project, members will demonstrate proficiency in:
+
+1. React fundamentals (components, props, state, hooks)
+2. State management across components
+3. Event handling and user interactions
+4. Responsive design principles
+5. Project structure and organization
+
+
+Core Requirements
+1. Product Catalog Page
+    Display a grid/list of at least 8-10 products
+    Each product card must show:
+        Product image
+        Product name
+        Product price
+        Short description
+        "Add to Wishlist" button
+        "Order Now" button (optional, can be wishlist-only flow)
+
+2. Wishlist Functionality
+    Users can add products to wishlist
+    Users can view all wishlisted items on a separate Wishlist page
+    Users can remove items from wishlist
+    Wishlist counter/badge showing number of items  
+
+3. Order/Transaction System
+    Users can place orders for products (either from catalog or wishlist)
+    When ordered, product is automatically removed from wishlist (if it was there)
+
+4. Navigation
+    Implement multi-page navigation
+    Required pages:
+        Home/Catalog page
+        Wishlist page
+        Transaction History page
+    Navigation bar/menu on all pages
+
+5. Transaction History Page
+    Display all past orders/transactions
+    Show order details (product, price, date, order ID)
+
+Technical Stack Requirements
+Required:
+React 18+
+Vite as build tool
+React Router DOM for routing
+Tailwind CSS
+
+UI/UX Requirements
+Minimum Requirements:
+    Responsive design (works on mobile, tablet, desktop)
+    Clear visual feedback for user actions (adding to wishlist, ordering)
+    Loading states or transitions
+    Empty states (when wishlist/transaction history is empty)
+    Consistent styling across all pages
+
+Deliverables
+GitHub Repository
+    Public repository
+    Meaningful commit messages
+    Organized file structure
+    Working deployed link (Vercel, Netlify)
+Grading Criteria
+    Functionality
+    Code Quality
+    UI/UX Design
+    Project Structure
+    Documentation
+
+
+
+    lucide-react
